@@ -1,0 +1,156 @@
+/*
+
+
+   Magic Zoom Plus v2.0.9 
+   Copyright 2011 Magic Toolbox
+   Buy a license to use Magic Scroll on your site.
+   Go to www.magictoolbox.com/magiczoomplus/
+
+
+*/
+
+.MagicZoom img {
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+
+/* Style of zoomed window */
+.MagicZoomBigImageCont {
+border: 1px solid #999;
+}
+
+/* Style of header, activated with "title" attribute in <a> tag */
+.MagicZoomHeader {
+font-size: 8pt !important;
+line-height: normal !important;
+color: #fff;
+background: #666;
+text-align: center !important;
+}
+
+/* Style of small square under mouse */
+.MagicZoomPup {
+border: 1px solid #aaa;
+background: #fff;
+cursor: move;
+}
+
+/* Style of message box while image is loading */
+.MagicZoomLoading {
+border: 1px solid #ccc;
+background: #fff url(graphics/loader.gif) no-repeat 2px 50%;
+padding: 4px 4px 4px 24px !important;
+margin: 0;
+text-decoration: none;
+text-align: left;
+font-size: 8pt;
+font-family: sans-serif;
+color: #444;
+}
+/* Style of the small image link */
+.MagicZoomPlus {
+cursor: url(graphics/zoomin.cur), pointer;
+outline: 0 !important;
+}
+
+/* Style of the small image */
+.MagicZoomPlus img {
+border: 0 !important;
+padding: 0 !important;
+margin: 0 !important;
+}
+
+/* Style of the span inside the small image link */
+.MagicZoomPlus span {
+display: none !important; 
+}
+
+
+/* Style of hotspots */
+.MagicHotspots {
+display: none;
+visibility: hidden;
+}
+.MagicHotspots a {
+border: 1px solid #ccc;
+}
+.MagicHotspots a:hover {
+border: 1px solid red;
+}
+
+/* Style of the small image link */
+.MagicThumb, .MagicThumb:hover {
+cursor: url(graphics/zoomin.cur), pointer;
+outline: 0 !important;
+}
+
+/* Style of the small image when the large image is expanded */ 
+.MagicThumb-expanded-thumbnail {
+cursor: default;
+}
+
+/* Style of the span inside the small image link */
+.MagicThumb span {
+display: none !important;
+}
+
+/* Style of the small image */
+.MagicThumb img {
+border: 0;
+outline: 0;
+}
+
+/* Style of the expanded image */
+.MagicThumb-expanded {
+cursor: url(graphics/zoomout.cur), pointer;
+background: transparent;
+border: 1px solid #ccc;
+outline: 0;
+padding: 0;
+}
+
+/* Style of the caption for the expanded image */
+.MagicThumb-caption {
+color: #333;
+font: normal 10pt Verdana, Helvetica;
+background: #ccc;
+text-align: left;
+padding: 8px;
+border: 0 !important;
+outline: 0 !important;
+}
+
+/* Style of the close/next/previous buttons */
+.MagicThumb-buttons {
+background: transparent url(graphics/buttons1.png) no-repeat 0 0;
+height: 24px;
+display: block;
+}
+
+.MagicThumb-buttons a {
+width: 24px;
+height: 24px;
+margin: 0px 1px !important;
+overflow: hidden;
+}
+
+/* Style of the loading message box */
+.MagicThumb-loader {
+font: normal 12pt sans-serif;
+border: 1px solid #000;
+background: #fff url(graphics/loader.gif) no-repeat 2px 50%;
+padding: 2px 2px 2px 22px;
+margin: 0;
+text-decoration: none;
+text-align: left;
+}
+
+/* Style of the small images which swap the main image */
+.MagicThumb-swap {
+}
+
+/* Style to hide caption on page. Only needed for #id method. */
+.MagicThumb-external-caption {
+display: none;
+}
