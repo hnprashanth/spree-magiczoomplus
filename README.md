@@ -8,7 +8,7 @@ Features
 ========
 
 * Zoom into product images.
-* Multiple image handling.
+* Multiple image handling. (see multiple image example here http://www.magictoolbox.com/magiczoomplus/examples/)
 * Changes product image by hovering on thumbnail.
 * Fancybox like Click to enlarge in zoom view.
 * Navigate between images in enlarged view using next/previous buttons.
