@@ -2,7 +2,8 @@ SpreeMagiczoomplus
 ==================
 
 Adds MagicZoomPlus to Spree store. http://www.magictoolbox.com/magiczoomplus/
-
+This extension is better than Spree Zoom Photos (http://github.com/eliotsykes/spree-zoom-photos) since it gives complete image handling control to Magic Zoom.
+I personally had problems in handling multiple product images while using Spree Zoom Photos PLUS this extension works with latest Spree.
 
 Features
 ========
