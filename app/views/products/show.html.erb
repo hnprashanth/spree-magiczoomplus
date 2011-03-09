@@ -4,7 +4,7 @@
 <div id="product-images">
   <%= hook :product_images do %>
   <div id="main-image">
-    <%= link_to product_image(@product), @product.images.first.attachment.url(:original), :class => "MagicZoomPlus", :id => "Zoomer" %>
+    <%= link_to product_image(@product), @product.images.first.attachment.url(:large), :class => "MagicZoomPlus", :id => "Zoomer" %>
   </div>
   <div id="thumbnails">
     <%= render 'thumbnails', :product => @product %>
