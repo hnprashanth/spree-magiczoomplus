@@ -38,3 +38,8 @@
     <% end %>
   </script>
 <% end %>
+
+<% content_for :head do %>
+  <%= javascript_include_tag 'magiczoomplus.js', 'magiczoom.options.js' %>
+  <%= stylesheet_link_tag 'magiczoomplus.css' %>
+<% end %>
