@@ -32,7 +32,8 @@ Run Install
     rake spree_magiczoomplus:install
 
 And you are good to go :-)
-To set options to zoom edit /public/javascripts/zoomoptions.js as instructed in http://www.magictoolbox.com/magiczoomplus/integration/
+
+To set options to zoom, edit /public/javascripts/magiczoom.options.js as instructed in http://www.magictoolbox.com/magiczoomplus/integration/
 
 
 Copyright (c) 2011 SpreeMagiczoomplus, released under the New BSD License
