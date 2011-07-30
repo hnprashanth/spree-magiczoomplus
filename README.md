@@ -21,7 +21,7 @@ Installation
 
 Add Spree-MagicZoomPlus to your Gemfile.
 
-    gem "spree_magiczoomplus", :git => 'git://github.com/hnprashanth/Spree-MagicZoomPlus.git'
+    gem "spree_magiczoomplus", :git => 'git://github.com/hnprashanth/spree-magiczoomplus.git'
 
 Update your bundle
 
